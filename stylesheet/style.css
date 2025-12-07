@@ -81,15 +81,14 @@ h1 {
 }
 
 .border-frame {
-    display: inline-block;
-    padding: 20px;
-    margin: 20px auto;
-    border-image-source: url(../images/tic-tac-toe.png) 27 repeat;
-    width:fit-content
+    display: block;
     margin: 0 auto;
+    border: 10px solid;
+    border-image-source: url(../images/tic-tac-toe.png) 10 round;
+    width:fit-content;
 }
 
 .border-frame .effect-4 {
-    
-   
+    display: block;
+    margin: 0;  
 }
