@@ -82,13 +82,13 @@ h1 {
 
 .border-frame {
     display: block;
-    margin: 0 auto;
-    border: 10px solid;
+    border: 10px solid transparent;
     border-image-source: url(../images/tic-tac-toe.png) 10 round;
     width:fit-content;
+    margin: 0 auto;
 }
 
-.border-frame .effect-4 {
+.border-frame img {
     display: block;
     margin: 0;  
 }
