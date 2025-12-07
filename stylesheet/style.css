@@ -50,8 +50,11 @@ h1 {
 }
 
 .effect-3 {
-   
+    filter: sepia(100%); 
+    border: black solid;
+    border-radius: 50%;  
 }
+
 
 .effect-4 {
    
